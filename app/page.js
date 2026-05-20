@@ -104,7 +104,7 @@ export default function Home() {
       (newTotalInvestment / 1000)
     ).toFixed(1);
 
-    const text = `${start}→${end} +${spins} 投資${newTotalInvestment}円 区間${sectionRate} 累計${cumulativeRate}`;
+    const text = `${start}→${end} +${spins} 投${newTotalInvestment}円 区間${sectionRate} 累計${cumulativeRate}`;
 
     const record = {
       text,
